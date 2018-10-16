@@ -19,7 +19,13 @@
 <tr>
   <td colspan="2" bgcolor="lightgrey">
       <form action="https://www.straus.md/en/">
-        <input type="text" name="query" value="" placeholder="Search" size="50" autofocus>
+        <input list="optiuni" type="text" name="query" value="" placeholder="Search" size="50" autofocus>
+        <datalist id="optiuni">
+          <option value="burger">
+          <option value="pizza">
+          <option value="kebab">
+
+        </datalist>
         <button type="button" name="button">Search</button>
       </form>
   </td>
