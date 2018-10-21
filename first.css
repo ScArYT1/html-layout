@@ -1,0 +1,39 @@
+#but{
+  color:green;
+  background-color:white;
+  border:1px solid black;
+  border-radius:10px;
+  width:auto;
+  height: 30px;
+}
+
+img{
+  border: 2px solid black;
+  width: 450px;
+  height: 400px;
+}
+
+
+#cautare{
+  color: black;
+  border: 1px solid black;
+  box-sizing: 10px;
+  box-shadow: 4px 2px 1px;
+  background-color:Wheat;
+
+}
+
+#a1{
+border: 2px solid blue ;
+}
+
+#a2{
+  border:2px solid green;
+}
+
+#a3{
+  border:2px solid orange;
+}
+#A1{
+
+}
