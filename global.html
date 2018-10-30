@@ -5,30 +5,54 @@
 
     body{
         background-color: lightblue;
+        width: 360px;
+
+
     }
+
+
     p{
         background-color: lime;
-        width: 21px ;
-        height: 32px;
+        width: 100px ;
+        height: 100px;
+        float: left;
+        margin:10px;
+        line-height: 100px;
+        text-align: center;
     }
 
-    </style>
+    p.color{
+        background-color: #3399ff;
+    }
+    p.col{
+        border-radius: 100px;
+    }
+    #first{
+        border-radius: 100px 0 0 0;
+        background-color: #248f24;
+    }
+    #last{
+        border-radius: 0 0 100px 0;
+        background-color: #248f24;
+    }
 
+
+    </style>
 
 
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
 <body>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>5</p>
-    <p>6</p>
-    <p>7</p>
-    <p>8</p>
-    <p>9</p>
+    <p id="first">1</p>
+    <p class="col">2</p>
+    <p class="">3</p>
+    <p class="color">4</p>
+    <p class="color col">5</p>
+    <p class="color">6</p>
+    <p class="">7</p>
+    <p class="col">8</p>
+    <p id="last">9</p>
 
 
 </body>
