@@ -27,8 +27,8 @@
     position: absolute;
     left: 7px;
     top: 7px;
-    border-radius: 50%;
-    animation: rot 5s;
+    border-radius: 100%;
+    animation: rot 5s linear infinite;
   }
   #preloader .dot{
     width: 5px;
@@ -42,8 +42,21 @@
 
   }
   @keyframes rot{
-    from{ transform: rotate(0deg);}
-     to{transform: rotate(360deg);}
+    0%{ transform: rotate(0deg);
+    border-color:red;
+    }
+    50%{
+      transform: rotate(180deg);
+      border-color: pink;
+    }
+    75%{
+      transform: rotate(270deg);
+      border-color: purple;
+    }
+
+     100%{transform: rotate(360deg);
+      border-color: red;
+     }
   }
 </style>
 </head>
