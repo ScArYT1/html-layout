@@ -1,0 +1,43 @@
+body{
+  background-color: #78b1ed;
+  font-family: arial;
+}
+a{
+  text-decoration: none;
+}
+nav{
+  background-color: white;
+  margin: 20px;
+  height: 40px;
+}
+nav li{
+  float: left;
+}
+nav li a{
+  border-right: 1px solid #78b1ed;
+  color: #78b1ed;
+  padding: 12px 55px;
+  display: block;
+}
+a:hover{
+  background-color: #639ff2;
+  transition: 1.3s;
+  color: white;
+}
+nav .burger a{
+  background-color: #46a1fe;
+  color: white;
+  padding: 12px 26px;
+}
+.burger{
+  float: right;
+}
+.burger span{
+  background-color: white;
+  width: 12px;
+  height: 3px;
+  display: block;
+  margin: 2px;
+
+
+}
