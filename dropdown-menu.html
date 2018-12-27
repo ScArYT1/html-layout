@@ -9,16 +9,18 @@
       list-style: none;
       width: 150px;
     }
-    nav>ul>li>ul{
+    nav>ul>li>label>ul{
       /*display: none;*/
       transition: 1s;
       opacity: 0;
     }
-    nav>ul>li:hover>ul{
+    nav>ul>li>label>input:checked+a+ul{
     /*display: block; */
     opacity: 1;
     }
-
+nav input{
+  display: none;
+}
   </style>
 </head>
 <body>
@@ -27,7 +29,10 @@
   <ul>
     <li><a href="">link 1</a></li>
     <li>
-      <a href="">link 2</a>
+      <label >
+        <input type="checkbox">
+
+      <a>link 2</a>
       <ul>
         <li><a href="">sublink 1</a></li>
         <li><a href="">sublink 2</a></li>
@@ -35,6 +40,7 @@
         <li><a href="">sublink 4</a></li>
         <li><a href="">sublink 5</a></li>
       </ul>
+    </label>
     </li>
     <li><a href="">link 3</a></li>
   </ul>
