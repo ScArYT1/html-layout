@@ -1,5 +1,6 @@
 Data: 27.12.18; {
   htmlbook.coms
+  htmlbook.ru
 
 
     SASS/SCSS/LESS/STYLUS
@@ -8,7 +9,7 @@ Data: 27.12.18; {
     ---> CSS with super powers;
     ---> CSS + programming;
 
-                * selector +  
+                * selector +
                 * types
                 * variables
                 * operators
