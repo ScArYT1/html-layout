@@ -19,3 +19,28 @@ Data: 27.12.18; {
 
 
 }
+
+MODERN CSS --> FLOAT, DISPLAY, INLINE-BLOCK, TABLE, POSITION...
+flex --> CSS FLEX/FLEXBOX 2017+ PRODUCTION
+         CSS GRID 2019+ PRODUCTION (VA FI GATA)
+
+         1) Float++, inline-block++
+         2) Smart
+         3) Less Code
+
+  CSS FLEX/FLEXBOX 2017+ PRODUCTION
+
+
+      Container{
+
+         * parent   >   child
+          (container)  (items)
+         * axis
+         * left, right + start, end
+         * center + spacing
+         * reverse
+         * direction (row/column) }
+      Items{
+
+         * order
+         * (proportions) shrink/grow
