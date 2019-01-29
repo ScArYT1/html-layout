@@ -1,0 +1,134 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  color: #444;
+  height: 10000px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width:1000px){
+  .container{
+    display:block;
+    width: 90%;
+  }
+}
+
+h1{
+font-size: 54px;
+line-height: 1em;
+}
+h2{
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 25px;
+  padding-right: 50px;
+}
+
+.text-marker{
+border-bottom: 0.2em solid #3452ff;
+line-height: 0.4em;
+display: inline-block;
+}
+
+.border-blue{
+  border: 1px solid #3452ff;
+  width: 600px;
+  padding: 50px;
+}
+button{
+  background-color: #3452FF;
+  border: 1px solid #3452FF;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  margin: 10px;
+  width: 120px;
+  transition: 0.4s;
+}
+button:hover{
+  box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scaleY(10px);
+}
+
+.form-element input, .form-element select{
+  border: 1px solid #999;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+h3{
+  font-size: 32px;
+  color: #000000;
+  line-height: 57px;
+  text-align: left;
+}
+h3+p{
+  color: #000000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+form{
+  background-color: #f8f8f9;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.form-element input[type="checkbox"],
+.form-element input[type="checkbox"]+.fa-star{
+  display: none;
+}
+.form-element input[type="checkbox"]:checked+.fa-star+.fa-star-o{
+  display: none;
+}
+.form-element input[type="checkbox"]:checked+.fa-star{
+  display: inline;
+}
+
+.fa.fa-fax{
+  color: #075BF8;
+  font-size: 50px;
+}
+.fa.fa-users{
+  color: #19CAE8;
+  font-size: 50px;
+}
+.fa.fa-globe{
+  color: #FF0053;
+  font-size: 50px;
+}
+#benefits{
+  display: flex;
+  justify-content: space-between;
+}
+
+.line{
+  width: 100%;
+  background-color: #ccc;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  transform: skewY(5deg);
+}
+.icon1{
+  position: relative;
+  top: -80px;
+}
+.icon3{
+  position: relative;
+  top: 80px;
+}
+.fa.fa-angle-up{
+  font-size: 40px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50% ;
+  background-color: green;
+}
