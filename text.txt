@@ -44,3 +44,24 @@ flex --> CSS FLEX/FLEXBOX 2017+ PRODUCTION
 
          * order
          * (proportions) shrink/grow
+
+
+web UI/web frontend
+
+    Frontend frameworks
+
+    css frameworks
+
+    libraries + frameworks
+
+    frameworks
+    + fast spin off
+    + ready to use components
+    + xbrowser
+    + adaptive / responsive
+    + mobile first (version)
+    + plugins / extensions
+    + 100+ developers
+    + bugs /...
+    + documentation + tutorials + strategy
+    + trust
