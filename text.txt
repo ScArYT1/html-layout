@@ -78,3 +78,24 @@ web UI/web frontend
     8) UIKIT
     9) MILLIGRAM
     10) SUSY
+
+
+
+
+
+                  ---->  JAVA SCRIPT <----
+
+          JS --- JAVASCRIPT  (ECMAScript / ES5 /ES6 (ES2015), ES7 | {ES8 (future)} )
+
+          WEB Programing Language
+
+          + Browser (frontend)
+
+          (HTMl - structure, CSS - style, JS - behaviour)
+
+          + Node.js (General Purpose)
+          + Gaming
+          + Apps
+          + Extensions
+          + Data Exchange
+          + ...
