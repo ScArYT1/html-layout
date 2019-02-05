@@ -99,3 +99,39 @@ web UI/web frontend
           + Extensions
           + Data Exchange
           + ...
+
+
+          HTML -> document (
+          elemente
+          )
+
+          JS -> script / programm(
+          * expressions / commands / actions ;
+
+          * case sensitive --> x nu este X
+
+          * expressions:
+              - identifiers/names ---> alert("Hi")
+              - operators/operations (actions) ---> +,-,*,/, ...
+              - values ---> 2+2, "Hi", ...;
+              -reserved words ---> if, else, for, switch, ...
+              - prefix/labels ----> const, let, var ...
+              - { }  -----> container/block code
+              - comments /* block comment*/, //line
+
+          * basics functions (read/write):
+              - alert(...) ---> doar info ----> user
+              - confirm(...) ---> info ---> user ---> reactie
+              - prompt(...) ---> info ---> user ----> valori
+              - console.log(...) ----> console (F12)
+              - document.write(...) ---> body
+
+          * data types
+              - number (100, -1, 0.5, ...)
+              - string ("hello", "545asd55asd4", "Chisinau", ...)
+                    + "quotes", 'single', `modern`;
+              - Boolean (true / false)
+          * variables
+              - var denumire = valoare;
+              - 
+          )
