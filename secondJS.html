@@ -30,27 +30,30 @@ alert("MOBILE");
 
 <script type="text/javascript">
 
-var t = prompt("Cate grade sunt?")
+var t = +prompt("Cate grade sunt?") // + convertim valoarea introdusa in nr da nu in string (scris)
 
-if (t < -20 || t > 50) {
+if (t < -20 || t > 50 || t === null  || t === "") {
 
-  alert("OOOPS")
+  document.write("OOOPS")
 
 }else{
 
+document.write('<div>-20|-10|  0| 10| 20| 30| 40| 50|</div>');
 
+var w = (t + 20) * 2.8;
 
+document.write('<div style="background:red; height:5px; width:'+w+'px;"></div>')
 
 if (t>= -20 &&  t <= 0) {
 
-  alert("ReCE");
+  document.write("ReCE");
 
 }else{
   if (t <= 10) {
-    alert("NORM")
+    document.write("NORM")
 
   }else{
-  alert("Cald");
+  document.write("Cald");
 }
 }
 }
