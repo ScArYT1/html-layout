@@ -133,5 +133,62 @@ web UI/web frontend
               - Boolean (true / false)
           * variables
               - var denumire = valoare;
-              - 
+              -
           )
+
+
+
+
+            Cand dam o denumire constatei:
+
+            * "CONSTANT_VALUE"
+
+            Denumiri var:
+
+            * "snake_case"
+
+
+              --------->  OPERATORS  <------------
+
+
+              *  Unary, binary, ternary
+
+              1 + 2 binary
+
+              10+  unary
+
+
+              * Arithmetic  (+, /, -, %)-----> Number
+
+              * Comparison (<,>, <=, >=, == (Value), === (identic), !=, !== )
+
+              * logic ( ! - not, &&,)
+
+
+
+
+              // Linear programing
+
+              // alert("A");  //"" String
+              // 0-0; //Number
+              // alert("B")
+              // 1+1;
+              // alert("C");
+
+              // non-linear programming
+
+              // flow control structures
+
+              // branching -- (ramificare) -- if/else, switch/case
+              // looping -- (cicluri) -- while, for ,do while, break, continue
+
+
+
+
+              if( expression/condition) {
+              // code if true
+              } else{
+              //code if false
+              }
+
+              // continue
